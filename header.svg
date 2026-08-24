@@ -1,0 +1,30 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="200" rx="12" fill="url(#bg)"/>
+  <rect width="900" height="200" rx="12" fill="none" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Terminal title bar -->
+  <rect x="0" y="0" width="900" height="34" rx="12" fill="#161b22"/>
+  <rect x="0" y="22" width="900" height="12" fill="#161b22"/>
+  <circle cx="24" cy="17" r="6" fill="#f85149"/>
+  <circle cx="46" cy="17" r="6" fill="#e3b341"/>
+  <circle cx="68" cy="17" r="6" fill="#3fb950"/>
+  <text x="450" y="22" font-family="Consolas, Menlo, monospace" font-size="13" fill="#8b949e" text-anchor="middle">mazen@backend-dev: ~</text>
+
+  <!-- Terminal content -->
+  <text x="30" y="80" font-family="Consolas, Menlo, monospace" font-size="18" fill="#3fb950">$ whoami</text>
+  <text x="30" y="112" font-family="Consolas, Menlo, monospace" font-size="28" font-weight="bold" fill="#e6edf3">Mazen Mohamed <tspan fill="#58a6ff">— Software Engineer</tspan></text>
+
+  <text x="30" y="148" font-family="Consolas, Menlo, monospace" font-size="15" fill="#8b949e">.NET / C# · ASP.NET Core · Clean Architecture · SQL Server · Redis</text>
+
+  <!-- blinking cursor -->
+  <text x="30" y="178" font-family="Consolas, Menlo, monospace" font-size="18" fill="#3fb950">$</text>
+  <rect x="45" y="166" width="9" height="16" fill="#58a6ff">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>

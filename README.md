@@ -1,11 +1,11 @@
 <div align="center">
 
-<!-- HEADER WAVE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0077B5,50:1e3a8a,100:0f172a&height=200&section=header&text=Mazen%20Mohamed&fontSize=46&fontColor=ffffff&animation=fadeIn&desc=Backend%20Engineer%20%7C%20.NET%20%26%20Distributed%20Systems&descAlignY=62&descSize=18" width="100%"/>
+<!-- HEADER BANNER -->
+<img src="./header.svg" alt="Mazen Mohamed - Software Engineer" width="100%"/>
 
 <!-- DYNAMIC TYPING -->
 <a href="https://www.linkedin.com/in/mazen-mohamed-100ab92a9/">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1200&color=2E9EF7&center=true&vCenter=true&width=620&lines=Backend+Engineer+%7C+ASP.NET+Core+%26+C%23;Clean+Architecture+%2B+SOLID+%2B+Distributed+Caching;600%2B+Problems+Solved+on+Codeforces+%26+LeetCode;Automated+Unit+Testing+with+xUnit" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1200&color=2E9EF7&center=true&vCenter=true&width=620&lines=Software+Engineer+%7C+Backend+%26+Distributed+Systems;Clean+Architecture+%2B+OOP+%2B+Design+Patterns;Algorithmic+Problem+Solving+%7C+700%2B+Problems;High-Throughput+APIs+%26+Resilient+System+Design" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -13,9 +13,6 @@
 <!-- TOP ACTION BADGES -->
 <a href="https://www.linkedin.com/in/mazen-mohamed-100ab92a9/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="mailto:mazenqwe347@gmail.com">
-  <img src="https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 <a href="https://codeforces.com/profile/mazenqwe3473062005" target="_blank">
   <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"/>
@@ -26,31 +23,48 @@
 <a href="https://www.hackerrank.com/profile/mazenqwe347" target="_blank">
   <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank"/>
 </a>
+<a href="https://www.upwork.com/freelancers/~01456c8e8c4a146da0" target="_blank">
+  <img src="https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork"/>
+</a>
 
 </div>
 
 <br/>
 
-## 👨‍💻 About Me
+## 👨‍💻 Engineering Profile
 
-- 🎓 **Education:** 3rd-year CS & AI student (Software Engineering track) at Helwan University — Graduating July 2027 (GPA: **3.7 / 4.0**)
-- 🏢 **Experience:** Former Full-Stack / Frontend Intern at **IDSC** (International Development and Research Center)
-- 🧩 **Competitive Programming:** Solved **611+ problems** on Codeforces, **100+** on LeetCode, and HackerRank SQL Certified
-- 🛠️ **Current Focus:** Enterprise multi-vendor backend architectures, high-performance distributed caching, and automated testing
-- 💼 **Availability:** Open to Backend / .NET engineering roles, internships, and freelance projects
+Software Engineer specializing in backend architectures, distributed caching, and scalable system design. Strong background in computer science fundamentals, Object-Oriented Design, and algorithmic problem-solving.
+
+* **Core Focus:** Clean Architecture, Domain-Driven Design principles, and low-latency backend systems.
+* **Problem Solving:** 700+ algorithmic challenges solved across Codeforces and LeetCode[cite: 1], with a focus on data structures, graph theory, and dynamic programming.
+* **Engineering Philosophy:** Decoupled business logic, strict separation of concerns, test-driven validation, and resilient asynchronous pipelines.
+* **Background:** B.Sc. in Computer Science & AI (Software Engineering Track) at Helwan University[cite: 1] (GPA: **3.7 / 4.0**[cite: 1], Graduating July 2027[cite: 1]). Former Software Development Intern at IDSC[cite: 1].
+
+---
+
+## 🧰 Technical Arsenal
+
+| Domain | Technologies & Concepts |
+| :--- | :--- |
+| **Languages** | `C#` · `C++` · `SQL` · `Java` · `JavaScript`[cite: 1] |
+| **Core Engineering** | `Data Structures & Algorithms` · `OOP` · `SOLID` · `Clean Architecture` · `Design Patterns`[cite: 1] |
+| **Backend & Distributed Systems** | `ASP.NET Core` · `RESTful APIs` · `Entity Framework Core` · `SignalR` · `Redis` · `Async/TAP`[cite: 1] |
+| **Databases & Storage** | `SQL Server` · `MySQL` · `MongoDB` · `Relational Schema Design` · `Query Optimization`[cite: 1] |
+| **Quality & Observability** | `xUnit` · `Moq` · `FluentAssertions` · `Serilog` · `Seq` · `RFC 7807 Exception Handling`[cite: 1] |
+| **DevOps & Infrastructure** | `Docker` · `Docker Compose` · `Git` · `Linux (Ubuntu)` · `Postman` · `CI/CD Workflows`[cite: 1] |
 
 ---
 
 ## 🚀 Featured Engineering Projects
 
-### 🏪 [VendorHub](https://github.com/MazenMohamedali/VendorHub) — Enterprise Multi-Vendor E-Commerce Platform
-> A production-grade multi-vendor backend built around **Clean Architecture**, **SOLID principles**, and **Domain-Driven design**.
+### 🏪 [VendorHub](https://github.com/MazenMohamedali/VendorHub) — Multi-Vendor E-Commerce Platform Backend
+> Production-grade distributed backend emphasizing high throughput, fault isolation, and decoupled domain logic[cite: 1].
 
-- ⚡ **High-Performance Caching:** 2-tier **L1/L2 caching** (`IMemoryCache` + `Redis`) with event-driven invalidation — reduced cache-hit latency from **372ms to ~1.88ms (~200× faster)**.
-- 📡 **Real-Time Communication:** Live order updates and admin dashboards via **SignalR** with claims-based permission policies.
-- 📬 **Asynchronous Queueing:** Offloaded notification pipelines from request threads using background channel queues.
-- 🛡️ **Defensive Architecture:** Global exception middleware with RFC 7807 `ProblemDetails`, optimistic concurrency tokens, and WebP magic-byte image validation.
-- 🧪 **Test Suite:** Automated unit tests with **xUnit**; fully containerized with **Docker Compose**.
+* **Layered Clean Architecture:** Built around Domain-Driven Design (DDD) with complete decoupling of persistence, application, and API presentation layers[cite: 1].
+* **Two-Tier Distributed Caching:** Implemented an $L1/L2$ caching model (`IMemoryCache` + `Redis`) with event-driven cache invalidation to maximize read throughput[cite: 1].
+* **Asynchronous Execution:** Engineered in-memory background channels to offload non-critical notification pipelines from request threads[cite: 1].
+* **Real-Time Communication:** Live order workflows and administrative dashboards powered by SignalR with claims-based access policies[cite: 1].
+* **Defensive Engineering & Testing:** Magic-byte payload validation, optimistic concurrency controls[cite: 1], and a test suite leveraging xUnit, Moq, and FluentAssertions; fully containerized with Docker Compose[cite: 1].
 
 <div align="left">
   <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white"/>
@@ -64,10 +78,10 @@
 <br/>
 
 ### 🔄 [Smart File Sync](https://github.com/MazenMohamedali/SmartFileSync) — Multi-Threaded Sync & Backup Engine
-> An extensible console utility for scheduled and real-time directory synchronization.
+> High-throughput console engine designed for concurrent directory synchronization and resilient data pipelines[cite: 1].
 
-- 🧵 Utilizes **Async/TAP**, producer-consumer multithreading, and Dependency Injection for high-throughput I/O operations.
-- 🔌 Modular target architecture supporting pluggable storage providers (FTP, Database, Local Storage) and graceful cancellation handling.
+* **Concurrent I/O Engine:** Built with Task Asynchronous Pattern (TAP) and configurable thread-pool parallelism to optimize disk/network throughput[cite: 1].
+* **Modular Pipeline Architecture:** Interface-driven target structure supporting pluggable storage providers (FTP, Database, Local Storage) with structured cancellation token propagation[cite: 1].
 
 <div align="left">
   <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white"/>
@@ -76,39 +90,8 @@
 
 ---
 
-## 🧰 Technical Arsenal
-
-| Category | Technologies & Tools |
-| :--- | :--- |
-| **Languages** | `C#` · `SQL` · `C++` · `Java` · `JavaScript` |
-| **Backend & APIs** | `ASP.NET Core` · `RESTful APIs` · `Entity Framework Core` · `SignalR` · `Background Services` |
-| **Architecture** | `Clean Architecture` · `SOLID` · `Design Patterns` · `Repository & Unit of Work` |
-| **Databases & Cache** | `SQL Server` · `MySQL` · `MongoDB` · `Redis` · `Neo4j` · `Apache Cassandra` |
-| **Testing & Quality** | `xUnit` · `Automated Unit Testing` |
-| **DevOps & Tools** | `Docker` · `Git` · `Postman` · `Serilog / Seq` · `Linux` |
-
----
-
-## 📊 Analytics & Activity
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MazenMohamedali&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MazenMohamedali&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak" />
+
+📫 **Connect:** [LinkedIn](https://www.linkedin.com/in/mazen-mohamed-100ab92a9/) • [Email](mailto:mazenqwe347@gmail.com) • [LeetCode](https://leetcode.com/u/mazen_mohamed_competitive/) • [Codeforces](https://codeforces.com/profile/mazenqwe3473062005)
+
 </div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MazenMohamedali&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
-</div>
-
----
-
-## 🐍 Contribution Activity
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MazenMohamedali/MazenMohamedali/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MazenMohamedali/MazenMohamedali/output/github-contribution-grid-snake.svg">
-    <img alt="Snake Contribution Graph" src="https://raw.githubusercontent.com/MazenMohamedali/MazenMohamedali/output/github-contribution-grid-snake-dark.svg" width="100%" />
-  </picture>
-</div>
-
